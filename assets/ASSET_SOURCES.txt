@@ -1,0 +1,70 @@
+《留名罐》资产来源与许可说明（R16）
+更新：2026-09-19
+
+原则
+- 主线剧情、人物、文件内容、界面、扫描件版式、胶片/VHS叙事画面均为本项目虚构制作。
+- 网络素材只采用明确可商用的 CC0 / Public Domain 来源；可识别真实未成年人照片不直接放入虚构死亡/民俗恐怖情节。
+- 网络参考与实际嵌入资产分开记录。R15/R16 新做的纸张、扫描噪声、印章/复印效果与胶片人物重绘均由项目内部制作，没有复制网络“旧纸纹理”或真实儿童肖像。
+
+1. 铁路 3D 在线增强
+- Regional Diesel Multiple Unit / 3DAssets.dev
+  https://3dassets.dev/assets/modern-rail-and-metro-network-regional-diesel-multiple-f492f691
+- License: CC0 1.0 Universal / Public Domain Dedication
+- Usage: Three.js 铁路训练器的在线高精度车辆增强。加载失败时自动回落到本地线路模拟，不影响训练逻辑与凭据获取。
+
+2. 铁路环境与材质参考
+- Bloem Train Track Clear / Poly Haven
+  https://polyhaven.com/a/bloem_train_track_clear
+- Terrain Red 01 / Poly Haven
+  https://polyhaven.com/a/terrain_red_01
+- Poly Haven license
+  https://polyhaven.com/license
+- License: CC0
+- Usage: 用于铁路环境光感、路基/碎石材质与真实铁路空间比例参考；不是主线必需依赖。
+
+3. CC0 铁路照片参考（未直接嵌入）
+- RailwayTrack.JPG / Wikimedia Commons / Shyjuo
+  https://commons.wikimedia.org/wiki/File:RailwayTrack.JPG
+- License: CC0 1.0 Universal
+- Usage: R15 本地线路 fallback 重绘时参考钢轨、轨枕和透视关系。游戏内 fallback 为项目重新制作，不直接分发该照片。
+
+4. 历史铁路与儿童队列参考（未直接嵌入）
+- “School children walk down the railroad tracks…” / U.S. National Archives / NARA 541234
+  https://commons.wikimedia.org/wiki/File:School_children_walk_down_the_railroad_tracks_to_their_homes_and_lunches._Kentucky_Straight_Creek_Coal_Company,_Belva..._-_NARA_-_541234.jpg
+- Status: U.S. Federal Government work / Public Domain / free of known copyright restrictions
+- Usage: 仅研究铁路边儿童队列的真实距离、镜头高度、人体比例和旧胶片呈现；真实儿童肖像没有直接放进《留名罐》的虚构事件。
+
+5. 留名罐数字物件
+- 本地：assets/models/liuming_jar.glb
+- License: 项目自制，无第三方版权素材
+- Method: 不规则粗陶网格、内壁、手工烧制起伏、烟熏色差和高粗糙度材质；优先本地加载。
+- 外部备用：Original Fractured Ceramic Vessel / 3DAssets.dev
+  https://3dassets.dev/assets/museum-conservation-and-art-restoration-museum-conserv-9172cc18
+- License: CC0 1.0 Universal / Public Domain Dedication
+- Usage: 只在本地模型加载失败时作为数字化备用；剧情中的“禾穗”后刻字由本项目独立制作。
+
+6. VHS / 35mm / 儿童队列与本地证物
+- 儿童队列、蓝白书包、铁路现场、35mm 接触表、VHS 母带均为项目虚构制作的非识别性素材。
+- 未直接导入真实儿童肖像。
+- R14/R15 保持 04831–04848 连续边码、66 秒 / 25fps VHS 与 T03 时间关系；R15 进一步把“人数发现”改为玩家在画面真实人物位置留下观察记号，而不是只检查点击次数/时间码。
+
+7. R15 扫描件
+- cast_list / production_contact / school_activity / library_card / sports_record / work_card / script_note / family_calendar / newspaper_1994 全部重新排版。
+- 各来源使用不同纸型、印刷密度、栏目、表格、复印/扫描缺陷与生活噪声，避免统一米黄色“线索卡片”模板。
+- 纸张颗粒、曝光带、折痕、复印噪声均为本项目程序生成；没有使用 AI 生成旧纸素材。
+
+
+8. R16 视觉校准与陶器参考（未直接嵌入）
+- RailwayTrack.JPG / Wikimedia Commons / Shyjuo
+  https://commons.wikimedia.org/wiki/File:RailwayTrack.JPG
+  License: CC0 1.0 Universal
+  Usage: 复核钢轨透视、轨枕密度与铁路边缘尺度；不直接分发原图。
+- Neolithic Yangshao Culture Pottery Jar.jpg / Wikimedia Commons / Gary Lee Todd, Ph.D.
+  https://commons.wikimedia.org/wiki/File:Neolithic_Yangshao_Culture_Pottery_Jar.jpg
+  License: CC0 1.0 Universal
+  Usage: 仅参考粗陶表面不均匀、烧成色差和自然磨损；剧情用留名罐仍使用本项目本地模型/本地档案图。
+- R16 没有把公共领域真实儿童照片放入“第七个孩子”虚构事件。35mm/VHS 中的人物均为不可识别的项目自制远景素材。
+
+9. R16 交互调整
+- 铁路训练增加交会考核：玩家选择先行车后仍须自己设置道岔与锁闭，选择会记录不同等待时间，不影响主线凭据公平性。
+- VHS 画面记号现在同时记录时间码和镜头号，必须与所选帧书签处于同一 T03 片段并落在对应人物位置，避免先在别处做记号再借用正确时间码。
