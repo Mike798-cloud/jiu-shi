@@ -68,3 +68,33 @@
 9. R16 交互调整
 - 铁路训练增加交会考核：玩家选择先行车后仍须自己设置道岔与锁闭，选择会记录不同等待时间，不影响主线凭据公平性。
 - VHS 画面记号现在同时记录时间码和镜头号，必须与所选帧书签处于同一 T03 片段并落在对应人物位置，避免先在别处做记号再借用正确时间码。
+
+R17 structural redesign / external public-domain material
+----------------------------------------------------------
+1) Abandoned railway track at Itabashi Station 2.jpg — Syced — CC0 1.0
+   Source page: https://commons.wikimedia.org/wiki/File:Abandoned_railway_track_at_Itabashi_Station_2.jpg
+   Use in R17: only as the photographic base layer for the fictional 1994 railway-side newspaper/archival-photo compositions. Fictional tarp, schoolbag, crop and halftone treatment are HTML/CSS overlays; the source photograph does not depict the fictional event.
+
+2) School children walk down the railroad tracks... - NARA - 541234.jpg — Russell Lee / U.S. National Archives — Public Domain
+   Source page: https://commons.wikimedia.org/wiki/File:School_children_walk_down_the_railroad_tracks_to_their_homes_and_lunches._Kentucky_Straight_Creek_Coal_Company,_Belva..._-_NARA_-_541234.jpg
+   Use in R17: visual reference only for human scale, lens height and how distant figures read beside railway tracks. The real children are NOT inserted into the fictional death/ritual imagery.
+
+R17 deliberately avoids using identifiable real children as fictional victims. The opening and later accident imagery are staged from a CC0 empty-track photograph plus non-photographic layout overlays.
+
+R18 page-horror / media finishing pass
+--------------------------------------
+1) Opening / later accident-photo base
+- Old rail track of Sasayama Line.jpg — Saigen Jiro — CC0 1.0 Universal
+  https://commons.wikimedia.org/wiki/File:Old_rail_track_of_Sasayama_Line.jpg
+- R18 continues to use this as the empty-track photographic base. Fictional incident elements are staged as local CSS/layout overlays and are not claimed to exist in the source photograph.
+
+2) Historical scale reference only (not embedded)
+- School children walk down the railroad tracks... — Russell Lee / U.S. National Archives, NARA 541234 — Public Domain
+  https://commons.wikimedia.org/wiki/File:School_children_walk_down_the_railroad_tracks_to_their_homes_and_lunches._Kentucky_Straight_Creek_Coal_Company,_Belva..._-_NARA_-_541234.jpg
+- Used only to re-check distant figure scale and camera height. Identifiable children in that photograph are not inserted into the fictional death narrative.
+
+3) R18 locally processed derivatives
+- assets/film/final_print.webp: project-owned R17 artwork reprocessed as a softer monochrome enlargement with emulsion grain/scratches; geometry preserved so observation hit-regions are unchanged.
+- assets/film/vhs_master_r18.mp4: project-owned 66 s / 25 fps master with restrained analogue dub degradation (luma noise, chroma bleed, slight optical softness). No horror glitch effects added.
+- assets/audio/vhs_left.ogg / vhs_right.ogg: mono channel derivatives of the project-owned stereo vhs_channels.ogg so L/R/Stereo controls now affect actual audio.
+- assets/jar_photo_front.webp / jar_photo_bottom.webp: project-owned jar images re-presented as imperfect flash photographs on a table, replacing the catalogue/OBJ visual language in the active story flow.
